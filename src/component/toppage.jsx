@@ -9,6 +9,16 @@ const toppage = () => {
         <li>
           <a href="http://localhost:3000/"> トップページ </a> に飛ぶ
         </li>
+        <li>
+          <a href="http://localhost:3000/material-ui-test">
+            マテリアル UI テストページ
+          </a>
+          に飛ぶ
+        </li>
+        <li>
+          <a href="http://localhost:3000/mysite">阿部のポートフォリオサイト</a>
+          に飛ぶ
+        </li>
       </ul>
     </div>
   );
