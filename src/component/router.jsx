@@ -1,7 +1,7 @@
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import TOPPage from "./toppage";
 import Test from "./test";
-import MaterialUI from "./material";
+import MaterialUI from "./portfolio/material";
 import My from "./portfolio/toppage";
 
 const router = () => {
@@ -10,10 +10,10 @@ const router = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<TOPPage />} />
+        <Route path="/" element={<My />} />
         <Route path="/test" element={<Test />} />
         <Route path="/material-ui-test" element={<MaterialUI />} />
-        <Route path="/mysite" element={<My />} />
+        <Route path="/top" element={<TOPPage />} />
       </Routes>
     </BrowserRouter>
   );

@@ -7,3 +7,22 @@
   top: 0;
   left: 0;
 }
+
+.appBar {
+  padding: 20px;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  box-shadow: 24px;
+  color: aliceblue;
+  p: 4px;
+}
+
+.button_mordal {
+  font-size: 20px;
+}
