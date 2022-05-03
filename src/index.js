@@ -1,10 +1,10 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import Test from "./component/test";
+import ReactDOM from "react-dom";
+import Router from "./component/router";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Test />
+    <Router />
   </React.StrictMode>
 );
