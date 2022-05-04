@@ -18,7 +18,8 @@ const Top = () => {
       <div className="home-body">
         <div className="title-container">
           <div className="title-home">
-            <Button onClick={handleOpen}>Welcome to 阿部哲也's site !!</Button>
+            Welcome to my site !!<br></br>
+            <Button onClick={handleOpen}>Click here!</Button>
             <Modal
               open={open}
               onClose={handleClose}
@@ -27,11 +28,11 @@ const Top = () => {
             >
               <Box className="box">
                 <Typography id="modal-modal-title" variant="h6" component="h2">
-                  Text in a modal
+                  経歴
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                  Duis mollis, est non commodo luctus, nisi erat porttitor
-                  ligula.
+                  桐蔭学園高等学校卒業<br></br>
+                  法政大学情報科学部コンピュータ科学科入学
                 </Typography>
               </Box>
             </Modal>
