@@ -1,15 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import AppBar from "@mui/material/AppBar";
 import Button from "@mui/material/Button";
 import Stack from "@mui/material/Stack";
 import "../../stylesheet/styles.css";
+import { useNavigate } from "react-router-dom";
 
-const Demo = () => {
-  const [count, setCount] = useState(0);
-
-  function increase() {
-    setCount(count + 1);
-  }
+const Header = () => {
+  const navigate = useNavigate();
 
   return (
     <div>
@@ -19,8 +16,7 @@ const Demo = () => {
             variant="contained"
             onClick={() => {
               console.log("onClick");
-              increase();
-              console.log(count);
+              navigate("/");
             }}
           >
             <div className="button_in_text">TopPage</div>
@@ -29,6 +25,7 @@ const Demo = () => {
             variant="contained"
             onClick={() => {
               console.log("History clicked");
+              navigate("/history");
             }}
           >
             <div className="button_in_text">History</div>
@@ -37,6 +34,7 @@ const Demo = () => {
             variant="contained"
             onClick={() => {
               console.log("Create clicked");
+              navigate("/create");
             }}
           >
             <div className="button_in_text">Create</div>
@@ -47,4 +45,4 @@ const Demo = () => {
   );
 };
 
-export default Demo;
+export default Header;

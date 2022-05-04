@@ -1,6 +1,6 @@
 import "../../stylesheet/TopPage.scss";
 import "../../stylesheet/styles.css";
-import Header from "../parts/header";
+// import Header from "../parts/header";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
@@ -13,8 +13,8 @@ const Top = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
-      <Header />
+    <div className="toppage-body">
+      {/* <Header /> */}
       <div className="home-body">
         <div className="title-container">
           <div className="title-home">

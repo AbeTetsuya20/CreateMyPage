@@ -16,6 +16,13 @@
   font-size: 40px;
 }
 
+/* ##### toppage.jsx ##### */
+.toppage-body {
+  background-color: yellowgreen;
+  margin: 0px;
+  padding: 0px;
+}
+
 .box {
   position: absolute;
   top: 50%;
