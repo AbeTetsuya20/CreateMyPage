@@ -16,6 +16,27 @@
   font-size: 40px;
 }
 
+/* ##### router.jsx ##### */
+
+/* ##### history.jsx ##### */
+.site_body {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(black, #3a3a3f);
+}
+.element1 {
+  font-size: large;
+  padding: 100px;
+}
+.while {
+  color: aliceblue;
+  text-align: center;
+  padding: 20px 0;
+  font-weight: bold;
+}
+
 /* ##### toppage.jsx ##### */
 .toppage-body {
   background-color: yellowgreen;
@@ -38,4 +59,17 @@
 /* ##### header.jsx ###### */
 .button_in_text {
   font-size: 20px;
+}
+
+/* ##### create.jsx ##### */
+
+.create_body {
+  padding: 100px;
+  padding-top: 200px;
+  background: radial-gradient(rgb(5, 39, 81), #3a3a3f);
+  color: aliceblue;
+}
+
+.div.swipelist {
+  padding: 50px;
 }

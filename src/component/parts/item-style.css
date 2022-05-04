@@ -1,0 +1,19 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.title {
+  background-color: #f0efee;
+  border: 0.5px solid #cdcdcd;
+  border-bottom: none;
+  border-top: none;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  color: #1e1e1e;
+  padding: 15px 20px;
+}
+.content {
+  border: 0.5px solid #cdcdcd;
+}
+.content:last-child {
+  border-radius: 4px;
+}

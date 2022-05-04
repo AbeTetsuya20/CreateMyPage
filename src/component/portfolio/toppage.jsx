@@ -1,4 +1,3 @@
-import "../../stylesheet/TopPage.scss";
 import "../../stylesheet/styles.css";
 // import Header from "../parts/header";
 import Box from "@mui/material/Box";
@@ -6,6 +5,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import React from "react";
+import Back from "../parts/back";
 
 const Top = () => {
   const [open, setOpen] = React.useState(false);
@@ -13,11 +13,10 @@ const Top = () => {
   const handleClose = () => setOpen(false);
 
   return (
-    <div className="toppage-body">
-      {/* <Header /> */}
-      <div className="home-body">
-        <div className="title-container">
-          <div className="title-home">
+    <div>
+      <Back
+        data={
+          <div>
             Welcome to my site !!<br></br>
             <Button onClick={handleOpen}>Click here!</Button>
             <Modal
@@ -37,21 +36,8 @@ const Top = () => {
               </Box>
             </Modal>
           </div>
-          <div className="item purple"></div>
-          <div className="item medium-blue"></div>
-          <div className="item light-blue"></div>
-          <div className="item red"></div>
-          <div className="item orange"></div>
-          <div className="item yellow"></div>
-          <div className="item cyan"></div>
-          <div className="item light-green"></div>
-          <div className="item lime"></div>
-          <div className="item magenta"></div>
-          <div className="item lightish-red"></div>
-          <div className="item pink"></div>
-        </div>
-        <div className="bottom-bar"></div>
-      </div>
+        }
+      />
     </div>
   );
 };
