@@ -29,6 +29,7 @@
 .element1 {
   font-size: large;
   padding: 100px;
+  text-align: left;
 }
 .while {
   color: aliceblue;
@@ -65,11 +66,19 @@
 
 .create_body {
   padding: 100px;
-  padding-top: 200px;
   background: radial-gradient(rgb(5, 39, 81), #3a3a3f);
   color: aliceblue;
+  margin: 0;
 }
 
-.div.swipelist {
+.swipelist {
+  background-color: #00002a;
   padding: 50px;
+  border: 1px solid rgb(19, 1, 111);
+  border-radius: 10px;
+}
+
+/* ##### footer.jsx ##### */
+.footer {
+  bottom: 0;
 }
