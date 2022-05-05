@@ -2,7 +2,6 @@ import "../../stylesheet/styles.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Autoplay, Swiper as RealSwiper } from "swiper";
-import Footer from "../parts/footer";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -88,7 +87,6 @@ const Create = () => {
           </div>
         </SwiperSlide>
       </Swiper>
-      <Footer />
     </div>
   );
 };

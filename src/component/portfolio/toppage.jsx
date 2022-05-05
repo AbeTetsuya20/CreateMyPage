@@ -26,12 +26,12 @@ const Top = () => {
               aria-describedby="modal-modal-description"
             >
               <Box className="box">
-                <Typography id="modal-modal-title" variant="h6" component="h2">
-                  経歴
+                <Typography id="modal-modal-title" variant="h6" component="h5">
+                  このサイトを作るにあたって参考にしたサイト
                 </Typography>
                 <Typography id="modal-modal-description" sx={{ mt: 2 }}>
-                  桐蔭学園高等学校卒業<br></br>
-                  法政大学情報科学部コンピュータ科学科入学
+                  <br></br>
+                  https://www.yuuuki-blog.com/2020/12/23/Portfolio%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%9F%E8%A9%B1/
                 </Typography>
               </Box>
             </Modal>

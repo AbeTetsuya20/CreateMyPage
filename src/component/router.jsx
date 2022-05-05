@@ -4,6 +4,7 @@ import My from "./portfolio/toppage";
 import Header from "../component/parts/header";
 import History from "../component/portfolio/history";
 import Create from "../component/portfolio/create";
+import Footer from "../component/parts/footer";
 
 const router = () => {
   console.log("this is router.jsx");
@@ -19,6 +20,9 @@ const router = () => {
           <Route path="/history" element={<History />} />
           <Route path="/create" element={<Create />} />
         </Routes>
+      </div>
+      <div>
+        <Footer />
       </div>
     </BrowserRouter>
   );
